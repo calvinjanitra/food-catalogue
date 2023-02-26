@@ -12,25 +12,31 @@ h1 {
     line-height: 2.285rem;
     /* border-style: solid; */
 }
-
+.container h1,
+h2,
+h3,
+h4 {
+    color: #a75d5d;
+}
 img:hover {
 }
+
 #header {
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #93bfcf;
+    background: #c04a82;
     box-shadow: 0 5px 15px;
 }
 
 .navbar1 {
     padding-left: 40px;
-    background: #93bfcf;
+    background: #c04a82;
 }
 .navbar1 a {
     padding-left: 40px;
-    background: #93bfcf;
+    background: #c04a82;
     text-decoration: none;
     color: black;
 }
@@ -42,25 +48,26 @@ a:hover {
     display: flex;
     justify-content: space-between;
     gap: 30px 15px;
-    background: #93bfcf;
+    background: #c04a82;
 }
 .navbar2 a {
-    background: #93bfcf;
+    background: #c04a82;
 }
 .navbar2 a {
     list-style: none;
     font-size: 20px;
     padding-right: 50px;
-    background: #93bfcf;
+    background: #c04a82;
 }
 
 .container {
+    width: 100vw;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
     height: auto;
-    width: 100%;
-    background-color: aqua;
+    background-color: #fdd36a;
 }
+
 .section .section-fl {
     display: flex;
     justify-content: space-between;
@@ -88,39 +95,49 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-right: 100px;
+    padding-right: 200px;
 }
 .counter {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 10px;
     justify-content: space-between;
     /* border-style: solid; */
 }
+.revv {
+    background-color: #ffb84c;
+    padding-top: 100px;
+    padding-left: 500px;
+    padding-bottom: 40px;
+}
 .rev {
-    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    padding-left: 500px;
     padding-top: 80px;
+    row-gap: 20px;
     /* justify-content: space-between; */
 }
 .review {
-    border-style: solid;
+    border: 1px solid black;
 }
+
 .person {
     display: flex;
     flex-direction: row;
+    column-gap: 15px;
 }
+
 footer {
     background-color: black;
+    padding: 20px 0px 20px 0px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     color: white;
     text-align: justify;
-    padding: 20px 0px 20px 0px;
+    width: 100vw;
 }
 
 .footer .ft-section {
@@ -129,4 +146,9 @@ footer {
 
 .footer .ft-section2 {
     padding-bottom: 120px;
+}
+
+.btn {
+    background: linear-gradient(92.23deg, #ff56f6 21.43%, #b936ee 50.63%, #3bace2 100%, #406aff 117.04%);
+    box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
